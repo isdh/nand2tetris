@@ -73,10 +73,10 @@ describe('basic logic', () => {
 
     describe('NAND not', () => {
       it('not 0 => 1', () => {
-        expect(not(1)).equal(nand.nandNot(0));
+        expect(not(1)).equal(nand.nandNot(1));
       });
       it('not 1 => 0', () => {
-        expect(not(0)).equal(nand.nandNot(1));
+        expect(not(0)).equal(nand.nandNot(0));
       });
     });
 

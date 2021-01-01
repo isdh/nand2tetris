@@ -12,5 +12,6 @@ exports.nandAnd = (a, b) => {
   // );
 };
 exports.nandNot = (a) => {
-  return nand(nand(a, a), nand(a,a));
+  return nand(a, a);
+  // return nand(nand(a, a), nand(a,a));
 };
